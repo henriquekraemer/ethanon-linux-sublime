@@ -1,0 +1,42 @@
+{
+	"cmd": ["machine", "dir=$file_path", "-nowait"],
+	"file_regex": "^[ ]*File \"(...*?)\", line ([0-9]*)",
+
+	"windows":
+	{
+		"cmd": ["machine.exe", "-nowait", "-norun"],
+		"file_regex": "^[ ]*File \"(...*?)\", line ([0-9]*)",
+		"encoding": "cp850"
+	},
+
+	"osx":
+	{
+		"cmd":["/Applications/machine.app/Contents/MacOS/machine", "dir=$file_path", "-nowait", "-norun"],
+		"file_regex": "^[ ]*File \"(...*?)\", line ([0-9]*)"
+	},
+
+	"linux":
+	{
+		"shell_cmd": "wine machine.exe -nowait -testing",
+		"file_regex": "^[ ]*File \"(...*?)\", line ([0-9]*)",
+	},
+
+	"variants":
+	[
+		{
+			"name": "Run",
+			"windows":
+			{
+				"cmd": ["machine.exe","-nowait","-testing"]
+			},
+			"osx":
+			{
+				"cmd": ["/Applications/machine.app/Contents/MacOS/machine", "dir=$file_path", "-nowait", "-testing"]
+			},
+			"linux":
+			{
+				"shell_cmd": "wine machine.exe -nowait -testing"
+			}
+		}
+	]
+}
