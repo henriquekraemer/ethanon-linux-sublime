@@ -1,7 +1,7 @@
 Ethanon Engine: sublime plugin (linux)
 ===========================
 
-Through this modification in the build system file (Ethanon Engine's build system) it's possible compile your project on Linux to Windows and run it through the wine.
+Through this modification in the build system file (Ethanon Engine's build system for sublime) it's possible compile your project on Linux to Windows and run it through the wine.
 
 Dependencies
 ============
