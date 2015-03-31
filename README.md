@@ -9,11 +9,11 @@ Through this modified sublime text plugin is possible to develop your Ethanon En
 
 Dependencies
 ============
-* wine (https://www.winehq.org)
-* ethanon engine (www.ethanonengine.com)
- * download the SDK Windows and install through wine
-* sublime text (http://www.sublimetext.com/)
- * linux build
+* Wine (https://www.winehq.org)
+* Ethanon Engine (www.ethanonengine.com)
+ * Download the SDK Windows and install through wine
+* Eublime Text (http://www.sublimetext.com/)
+ * Linux version
 
 Installation
 ==============
