@@ -11,9 +11,9 @@ Dependencies
 ============
 * wine (https://www.winehq.org)
 * ethanon engine (www.ethanonengine.com)
-* * download the SDK Windows and install through wine
+ * download the SDK Windows and install through wine
 * sublime text (http://www.sublimetext.com/)
-* * linux build
+ * linux build
 
 Installation
 ==============
