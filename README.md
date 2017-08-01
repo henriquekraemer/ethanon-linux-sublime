@@ -14,7 +14,7 @@ Dependencies
 * Ethanon Engine (www.ethanonengine.com)
  * Download the SDK Windows and install through wine
 * Sublime Text (http://www.sublimetext.com/)
- * Linux version
+ * Linux OS (tested on Ubuntu)
 
 Installation
 ==============
